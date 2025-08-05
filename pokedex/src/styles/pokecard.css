@@ -1,0 +1,44 @@
+.poke-img-hover {
+    transition: transform 0.3s ease, filter 0.3s ease;
+  }
+  
+  .card-hover {
+
+    border-bottom: 6px solid rgb(145, 106, 59); /* Marrón oscuro */
+    border-right: 6px solid rgb(145, 106, 59);
+    border-radius: 20px; /* Opcional, según tu diseño */
+    transition: transform 0.3s ease;
+  }
+  
+  .card-hover:hover {
+    transform: scale(1.03);
+  }
+  
+  .card-hover:hover .poke-img-hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0  5px rgba(0, 0, 0, 1));
+
+  }
+  .hover-scale img {
+    transition: transform 0.3s ease;
+  }
+  .hover-scale img:hover {
+    transform: scale(1.5); /* o 1.2 si quieres que crezca más */
+  }
+
+  .custom-progress {
+    height: 8px;
+    background-color: #474747; /* gris oscuro para el fondo base */
+    border-radius: 8px;
+    border: solid 1px #ccc; /* borde opcional */
+    overflow: hidden;
+    margin-bottom: 6px;
+  }
+  
+  .custom-progress-bar {
+    height: 100%;
+    background-color: #f54291; /* color rosado o el que desees */
+    transition: width 0.3s ease-in-out;
+    border-radius: 8px 0 0 8px;
+  }
+  

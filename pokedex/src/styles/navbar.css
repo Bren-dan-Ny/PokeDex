@@ -1,0 +1,15 @@
+.color-strip{
+    height: 6px;
+    width: 100%;
+    background: linear-gradient(
+        to right,
+        #999 14%,     
+        #e5391c 14% 28%, 
+        #fb8c00 28% 42%, 
+        #fbc02d 42% 56%, 
+        #43a047 56% 70%, 
+        #29b6f6 70% 84%, 
+        #1e88e5 84% 100%  
+        );
+;
+}

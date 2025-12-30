@@ -1,6 +1,7 @@
 # Pokedex - Proyecto Hackaton 17
 
 Este proyecto es una Pokédex desarrollada como parte de la Hackaton 17. Permite a los usuarios explorar información sobre diferentes Pokémon, incluyendo detalles como tipos, habilidades, estadísticas y evoluciones.
+link de la página adjunta: https://bren-dan-ny.github.io/PokeDex/
 
 ---
 

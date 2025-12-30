@@ -28,7 +28,7 @@ function App() {
     fetchAllNames();
   }, []);
 
-  // Cargar la página actual de Pokémon (cuando no estamos buscando)
+  // Cargar la página actual de Pokémon
   useEffect(() => {
     if (!searching) {
       const loadPokemons = async () => {

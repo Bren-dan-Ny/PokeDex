@@ -8,12 +8,12 @@ function Navbar({ onSearchPokemon }) {
   const handleChange = (e) => {
     const value = e.target.value;
     setSearch(value);
-    onSearchPokemon(value); // búsqueda directa sin debounce
+    onSearchPokemon(value);
   };
 
   return (
     <>
-      <nav className=" container navbar  px-4 py-2 ">
+      <nav className="container-fluid navbar px-4 py-2 bg-light">
         <img src={pokelogo} alt="Logo" style={{ height: "70px" }} />
         <input
           type="text"
